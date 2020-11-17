@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+<title>
+Sign In
+</title>
+</head>
+<body>
+<br><br><br><br><br><br>
+<script src="Libraries/matter.js"></script>
+<script src="Libraries/p5.dom.min.js"></script>
+<script src="Libraries/p5.min.js"></script>
+<script src="Libraries/p5.sound.min.js"></script>
+<script src="sketch.js"></script>
+<form name="Form1",onsubmit="return validateForm()",method="do">
+<fieldset>
+<legend><h1>Sign up</h1></legend>
+Name:<input type="text" name="fname"> </input><br><br>
+Date of Birth:<input type="date" name="dobname"></input><br><br>
+Email address:<input type="text" name="eaddressname"> </input><br><br>
+Government Verification id(Aadhar or Voter ID):<input type="number" name="vname"></input><br><br>
+Scheduled date of workout(Try to make sure its final as another person will be informed of it and will schedule accordingly):<input type="date" name="dname"></input><br><br>
+Scheduled starting time of workout:<input type="time" name="tname"></input><br><br>
+Phone number:<input type="number" name="inumber"></input><br><br>
+<button type="button">Submit</button>
+</fieldset>
+</form>
+</body>
+<style>
+head,body{
+background-image:url('image.jpg');
+font-weight:bolder;
+color:rgb(255, 255, 255);
+}
+</style>
+</html>
